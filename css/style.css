@@ -72,6 +72,8 @@ body {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 16px;
+
+  animation: moveInRight 2s ease-out;
 }
 
 @keyframes moveInLeft {
@@ -81,6 +83,20 @@ body {
   }
   80% {
     transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
   }
   100% {
     opacity: 1;
