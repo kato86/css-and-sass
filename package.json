@@ -1,0 +1,20 @@
+{
+  "name": "css-and-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kato86/css-and-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kato86/css-and-sass/issues"
+  },
+  "homepage": "https://github.com/kato86/css-and-sass#readme"
+}
