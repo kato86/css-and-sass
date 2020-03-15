@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kato86/css-and-sass/issues"
   },
-  "homepage": "https://github.com/kato86/css-and-sass#readme"
+  "homepage": "https://github.com/kato86/css-and-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
