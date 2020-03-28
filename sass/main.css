@@ -285,6 +285,26 @@ body {
           transform: translateY(0);
 }
 
+.card {
+  -webkit-perspective: 150rem;
+          perspective: 150rem;
+  -moz-perspective: 150rem;
+}
+
+.card__side {
+  background-color: orangered;
+  color: white;
+  font-size: 2rem;
+  height: 50rem;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.card:hover .card__side {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
 .composition {
   position: relative;
 }
