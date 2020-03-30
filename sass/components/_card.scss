@@ -69,9 +69,23 @@
     font-size: 2.8rem;
     font-weight: 300;
     text-transform: uppercase;
+    text-align: right;
     color: $color-white;
     position: absolute;
     top: 12rem;
     right: 2rem;
+    width: 65%;
+  }
+
+  &__heading-span {
+    padding: 1rem 1.5rem;
+    box-decoration-break: clone; // jeśli linia z tekstem zostaje załamana to ją wyrównuje (jedna pod drugą)
+    &--1 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-secondary-light, 0.85),
+        rgba($color-secondary-dark, 0.85)
+      );
+    }
   }
 }
