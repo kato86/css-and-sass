@@ -197,7 +197,11 @@ body {
 }
 
 .u-margin-top-big {
-  margin-bottom: 8rem;
+  margin-top: 8rem;
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem;
 }
 
 .btn:link, .btn:visited {
@@ -631,7 +635,7 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   margin-top: -10rem;
 }
 /*# sourceMappingURL=main.css.map */
