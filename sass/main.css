@@ -196,6 +196,10 @@ body {
   margin-bottom: 8rem;
 }
 
+.u-margin-top-big {
+  margin-bottom: 8rem;
+}
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
