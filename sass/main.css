@@ -891,6 +891,10 @@ body {
   right: 6.5rem;
   background-image: radial-gradient(#7ed56f, #28b485);
   z-index: 1000;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
 }
 
 .navigation__nav {
@@ -898,10 +902,13 @@ body {
   width: 100%;
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 3000;
   opacity: 0;
   width: 0;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  width: 100%;
 }
 
 .navigation__list {
