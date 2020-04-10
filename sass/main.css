@@ -956,7 +956,7 @@ body {
 
 .navigation__checkbox:checked ~ .navigation__nav {
   opacity: 1;
-  width: 100%;
+  width: 110%;
 }
 
 .section-about {
