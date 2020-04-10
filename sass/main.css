@@ -877,7 +877,7 @@ body {
   top: 6rem;
   right: 6rem;
   border-radius: 50%;
-  z-index: 2000;
+  z-index: 4000;
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
 }
@@ -942,6 +942,16 @@ body {
   color: #55c57a;
   -webkit-transform: translateX(1rem);
           transform: translateX(1rem);
+}
+
+.navigation__checkbox:checked ~ .navigation__background {
+  -webkit-transform: scale(80);
+          transform: scale(80);
+}
+
+.navigation__checkbox:checked ~ .navigation__nav {
+  opacity: 1;
+  width: 100%;
 }
 
 .section-about {
