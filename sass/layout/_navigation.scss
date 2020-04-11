@@ -12,6 +12,8 @@
     border-radius: 50%;
     z-index: 4000;
     box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
+    text-align: center;
+    cursor: pointer;
   }
   &__background {
     height: 6rem;
@@ -91,7 +93,7 @@
   &__icon {
     position: relative;
     margin-top: 3.5rem;
-    margin-left: 1.9rem;
+    transition: all 0.2s;
 
     &,
     &::before,
@@ -107,6 +109,7 @@
       content: "";
       position: absolute;
       left: 0;
+      transition: all 0.2s;
     }
 
     &::before {
@@ -115,5 +118,18 @@
     &::after {
       top: 0.8rem;
     }
+  }
+
+  &__button:hover &__icon {
+    height: 3px;
+  }
+
+  &__button:hover &__icon::before {
+    top: -1rem;
+    height: 3px;
+  }
+  &__button:hover &__icon::after {
+    top: 1rem;
+    height: 3px;
   }
 }
