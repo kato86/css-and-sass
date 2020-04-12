@@ -674,7 +674,7 @@ body {
   width: 80%;
   height: 40%;
   background-color: #fff;
-  border-radius: 2px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
 }
