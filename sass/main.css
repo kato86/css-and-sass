@@ -663,6 +663,15 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
 }
 
 .popup__content {
