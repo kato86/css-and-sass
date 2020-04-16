@@ -13,7 +13,7 @@
   transform: translate(-50%, -50%);
 }
 
-@mixin respond-phone {
+@mixin phone {
   @media (max-width: 600px) {
     @content;
   }

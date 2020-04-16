@@ -105,6 +105,12 @@ html {
   font-size: 62.5%;
 }
 
+@media (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
