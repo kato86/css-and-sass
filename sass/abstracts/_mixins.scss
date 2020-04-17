@@ -21,22 +21,26 @@
 
 @mixin respond($brakepoint) {
   @if $brakepoint == phone {
-    @media (max-width: 600px) {
+    @media (max-width: 37.5em) {
+      // 600px
       @content;
     }
   }
   @if $brakepoint == tab-port {
-    @media (max-width: 900px) {
+    @media (max-width: 56.25em) {
+      // 900px
       @content;
     }
   }
   @if $brakepoint == tab-land {
-    @media (max-width: 1200px) {
+    @media (max-width: 75em) {
+      // 1200px
       @content;
     }
   }
   @if $brakepoint == bit-desktop {
-    @media (min-width: 1800px) {
+    @media (min-width: 112.5em) {
+      // 1800px
       @content;
     }
   }
