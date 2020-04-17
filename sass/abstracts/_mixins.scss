@@ -18,3 +18,11 @@
     @content;
   }
 }
+
+@mixin respond($brakepoint) {
+  @if $brakepoint == phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+}
