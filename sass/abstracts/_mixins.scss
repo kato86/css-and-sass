@@ -13,12 +13,6 @@
   transform: translate(-50%, -50%);
 }
 
-@mixin phone {
-  @media (max-width: 600px) {
-    @content;
-  }
-}
-
 @mixin respond($brakepoint) {
   @if $brakepoint == phone {
     @media (max-width: 37.5em) {
