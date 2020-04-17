@@ -111,6 +111,18 @@ html {
   }
 }
 
+@media (max-width: 900px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 70%;
+  }
+}
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

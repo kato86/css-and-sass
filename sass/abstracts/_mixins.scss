@@ -25,4 +25,19 @@
       @content;
     }
   }
+  @if $brakepoint == tab-port {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if $brakepoint == tab-land {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  }
+  @if $brakepoint == bit-desktop {
+    @media (min-width: 1800px) {
+      @content;
+    }
+  }
 }
