@@ -912,6 +912,14 @@ body {
           transform: skewX(-12deg);
 }
 
+@media (max-width: 56.25em) {
+  .story {
+    width: 100%;
+    padding: 4rem;
+    padding-left: 7rem;
+  }
+}
+
 .story > * {
   -webkit-transform: skewX(12deg);
           transform: skewX(12deg);
