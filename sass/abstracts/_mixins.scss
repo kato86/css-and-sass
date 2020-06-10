@@ -14,26 +14,29 @@
 }
 
 @mixin respond($brakepoint) {
-  @if $brakepoint == phone {
-    @media (max-width: 37.5em) {
+  @if $brakepoint==phone {
+    @media only screen and (max-width: 37.5em) {
       // 600px
       @content;
     }
   }
-  @if $brakepoint == tab-port {
-    @media (max-width: 56.25em) {
+
+  @if $brakepoint==tab-port {
+    @media only screen and (max-width: 56.25em) {
       // 900px
       @content;
     }
   }
-  @if $brakepoint == tab-land {
-    @media (max-width: 75em) {
+
+  @if $brakepoint==tab-land {
+    @media only screen and (max-width: 75em) {
       // 1200px
       @content;
     }
   }
-  @if $brakepoint == bit-desktop {
-    @media (min-width: 112.5em) {
+
+  @if $brakepoint==bit-desktop {
+    @media only screen and (min-width: 112.5em) {
       // 1800px
       @content;
     }
